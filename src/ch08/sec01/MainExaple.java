@@ -13,11 +13,22 @@ public class MainExaple {
 		rct.setVolume(6);
 		TV tv = (TV)rct;
 		tv.printVolume();
+		
+		
+		
+		
 
 		rct.setMute(true);
 		tv.printVolume();
 		rct.setMute(false);
 		tv.printVolume();
+		
+		RemoteControl.changeBattery();
+		
+		
+		rct.callPrivateFunc();		
+		RemoteControl.callPrivateStaticFunc();
+		
 		
 
 		System.out.println("-----------------------");
