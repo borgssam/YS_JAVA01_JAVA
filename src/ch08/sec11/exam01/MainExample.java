@@ -8,7 +8,7 @@ public class MainExample {
 		
 		//금호로 교체
 		myCar.tireFront = new KumhoTire();
-		myCar.tireBack = new KumhoTire();
+		myCar.tireBack  = new KumhoTire();
 		myCar.run();
 		
 		
