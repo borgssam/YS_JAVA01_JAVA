@@ -6,13 +6,13 @@ public class Korean {
 	
 	String name;
 	
+	public Korean() {
+		this.ssn="";
+	}
 	public Korean(String ssn, String name) {
 		this.ssn = ssn;
 		this.name = name;
 	}
 
-	public Korean() {
-		// TODO Auto-generated constructor stub
-	}
 
 }
