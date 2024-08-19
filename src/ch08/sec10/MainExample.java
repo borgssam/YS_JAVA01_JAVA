@@ -14,6 +14,9 @@ public class MainExample {
 		bus.run();
 		
 		
+		//taxi 목적지를 정하다 
+		//tank 대포쏜다.
+		
 
 	}
 
