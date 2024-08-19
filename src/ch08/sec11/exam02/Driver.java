@@ -6,6 +6,10 @@ public class Driver {
 		this.name = name;
 	}
 	void drive(Vehicle vehicle) {
-		vehicle.run(this.name);
+		if(vehicle instanceof Bus) {
+			System.out.println(this.name+"는 대형면허가 없습니다.");
+		} else {
+			vehicle.run(this.name);
+		}
 	}
 }
