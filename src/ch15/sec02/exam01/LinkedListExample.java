@@ -1,13 +1,13 @@
 package ch15.sec02.exam01;
 
-import java.util.ArrayList;
-//import java.util.LinkedList;
+import java.util.LinkedList;
 import java.util.List;
 
-public class ArrayListExample {
+public class LinkedListExample {
+
 
 	public static void main(String[] args) {
-		List<Board> list = new ArrayList<>();
+		List<Board> list = new LinkedList<>();
 		list.add(new Board("제목1","내용1","글쓴이1"));
 		list.add(new Board("제목2","내용2","글쓴이2"));
 		list.add(new Board("제목3","내용3","글쓴이3"));
@@ -38,13 +38,13 @@ public class ArrayListExample {
 		for(Board bd : list) {
 		System.out.printf("제목:%s, 내용:%s, 글쓴이:%s\n",
 				bd.getSubject(), bd.getContent(), bd.getWriter());			
-	}
+		}
 		
 		
 
 	}
 
 	
-	
-	
+
+
 }
