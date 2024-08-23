@@ -1,6 +1,7 @@
 package ch15.sec04.exam01;
 
 import java.util.HashMap;
+//import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
